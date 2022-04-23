@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
+    background-size: 200vh;
+    font-family: 'Schoolbell', cursive;
+    text-align: center;
+    color: #F4ED66;
+    font-size: 20px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 30px;
+    background-color: #181411;
+    display: inline-block;
+    padding: 40px;
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+    color: #181411;
+}
+
+.jogador, .vencedor {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+button {
+    border: 0;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 16px;
+	background: #374F2D;
+	color: #F4ED66;
+	margin: 10px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	border-radius: 5px;
+}
+
+button:hover {
+	background: #749459;
+}
